@@ -17,18 +17,24 @@ body {
 h1 {
   color: #d63384;
   font-size: 2rem;
+  text-align: center;
+}
+h2 {
+  text-align: center;
 }
 
 .message {
   font-size: 1.2rem;
   margin-top: 0.5rem;
   color: #6b21a8;
+  text-align: center;
 }
 
 .normaltext {
   font-size: 0.8rem;
   margin-top: 1rem;
   color: #d31876;
+  text-align: center;
 }
 
 /* flower animation */
@@ -38,19 +44,21 @@ h1 {
 }
 
 .photo-gallery {
-  display: block;
+  display: flex;
   margin-top: 30px;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .photo {
-  width: 200px;
+  width: 150px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
   margin-bottom: 20px;
+  justify-content: center;
 }
 
 .photo:hover {
