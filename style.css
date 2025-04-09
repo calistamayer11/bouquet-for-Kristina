@@ -40,6 +40,8 @@ h1 {
 .photo-gallery {
   display: block;
   margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .photo {
